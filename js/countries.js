@@ -7,7 +7,7 @@
  }
 
  const displayCountries = countries=>{
-   // console.log(countries)
+    console.log(countries)
     const AllCountriesHTML = countries.map(country =>getContryHTML(country))
     //console.log(CountriesHTML[0])
 
@@ -22,6 +22,7 @@
 
 
     <h2>${country.name.common}</h2>
+    <img src = "${country.flags.png}">
 
 
 
