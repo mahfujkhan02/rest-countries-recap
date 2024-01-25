@@ -12,7 +12,7 @@
     //console.log(CountriesHTML[0])
 
     const container = document.getElementById('countries')
-    container.innerHTML = AllCountriesHTML
+    container.innerHTML = AllCountriesHTML.join(' ')
  } 
 
  const getContryHTML = country=>{
