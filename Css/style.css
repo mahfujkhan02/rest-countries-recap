@@ -1,0 +1,12 @@
+.country{
+    border: 3px solid aquamarine;
+    background-color: crimson;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.country image {
+    width: 300px;
+}

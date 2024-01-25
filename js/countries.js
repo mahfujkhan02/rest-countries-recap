@@ -18,7 +18,7 @@
  const getContryHTML = country=>{
     return`
 
-    <div>
+    <div class = "country">
 
 
     <h2>${country.name.common}</h2>
